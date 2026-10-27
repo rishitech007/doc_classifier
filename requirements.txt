@@ -2,3 +2,4 @@ streamlit
 pypdf
 indra-ocr
 typesafe-sdk
+fastapi
