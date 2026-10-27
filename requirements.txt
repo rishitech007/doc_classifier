@@ -3,3 +3,4 @@ pypdf
 indra-ocr
 typesafe-sdk
 fastapi
+typesafe-ai
