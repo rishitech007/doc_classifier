@@ -5,8 +5,8 @@ from fastapi import FastAPI, File, HTTPException, UploadFile, status
 from pydantic import BaseModel
 from pypdf import PdfReader, PdfWriter
 import indra_ocr
-from typesafe import TypeSafeClient
-from typesafe.types import Choice
+from typesafe_sdk import TypeSafeClient, Choice
+
 
 app = FastAPI(title="Insurance Underwriting Document Classifier")
 
